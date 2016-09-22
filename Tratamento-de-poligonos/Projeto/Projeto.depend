@@ -25,3 +25,29 @@
 	<iostream>
 	"Retangulo.h"
 
+1474509831 source:c:\users\joanderson\desktop\bct\2016.2\paradigmas\projeto\main.cpp
+	<iostream>
+	"Retangulo.h"
+
+1474455507 c:\users\joanderson\desktop\bct\2016.2\paradigmas\projeto\retangulo.h
+	"Poligono.h"
+
+1474509796 c:\users\joanderson\desktop\bct\2016.2\paradigmas\projeto\poligono.h
+	"Ponto.h"
+
+1474455263 c:\users\joanderson\desktop\bct\2016.2\paradigmas\projeto\ponto.h
+
+1474455239 source:c:\users\joanderson\desktop\bct\2016.2\paradigmas\projeto\ponto.cpp
+	"Ponto.h"
+	<iostream>
+	<cmath>
+
+1474455508 source:c:\users\joanderson\desktop\bct\2016.2\paradigmas\projeto\retangulo.cpp
+	"Retangulo.h"
+
+1474509792 source:c:\users\joanderson\desktop\bct\2016.2\paradigmas\projeto\poligono.cpp
+	"Poligono.h"
+	"Ponto.h"
+	<cmath>
+	<iostream>
+

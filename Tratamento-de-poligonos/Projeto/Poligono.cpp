@@ -44,6 +44,17 @@ void Poligono::mover(float x, float y){
         p[i]=p[i].translada(x,y);
     }
 }
+
+void Poligono::rot(double ang){
+    for(int i=0;i<nVertices;i++){
+        ang = 0.0174533*ang;
+        int x = cos(ang)*p[i].getX() - sin(ang)*p[i].getY();
+        int y = sin(ang)*p[i].getX() + cos(ang)*p[i].getY();
+        p[i].setX(x);
+        p[i].setY(y);
+
+    }
+}
 void Poligono::print(){
     for(int i=0;i<nVertices;i++){
         p[i].imprime();

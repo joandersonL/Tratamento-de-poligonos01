@@ -13,5 +13,8 @@ int main()
     cout<<"Coordenadas do retangulo final: ";
     r.print();
     cout<<"\nArea do retangulo: "<<r.area()<<endl;
+    r.rot(30);
+    r.print();
+    cout<<"\nArea do retangulo: "<<r.area()<<endl;
     return 0;
 }

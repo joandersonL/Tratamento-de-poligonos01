@@ -13,6 +13,7 @@ public:
     int getVertice();
     float area();
     void mover(float x, float y);
+    void rot(double ang);
     void print();
 
 
