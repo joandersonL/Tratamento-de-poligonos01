@@ -14,6 +14,7 @@ public:
     float area();
     void mover(float x, float y);
     void rot(double ang);
+    void rot(double ang,int px,int py);
     void print();
 
 
