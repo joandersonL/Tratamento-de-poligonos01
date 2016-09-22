@@ -47,23 +47,16 @@ void Poligono::mover(float x, float y){
 
 void Poligono::rot(double ang){
     for(int i=0;i<nVertices;i++){
-        /*ASASAS*/
-        //ang = 0.0174533*ang;
-        float x = cos(ang)*p[i].getX() - sin(ang)*p[i].getY();
-        float y = sin(ang)*p[i].getX() + cos(ang)*p[i].getY();
+        double a = (M_PI*ang)/180.0;
+        float x = cos(a)*p[i].getX() - sin(a)*p[i].getY();
+        float y = sin(a)*p[i].getX() + cos(a)*p[i].getY();
         p[i].setX(x);
         p[i].setY(y);
-
     }
 }
 void Poligono::rot(double ang,int px,int py){
     mover(-px,-py);
-    for(int i=0;i<nVertices;i++){
-        float x = cos(ang)*p[i].getX() - sin(ang)*p[i].getY();
-        float y = sin(ang)*p[i].getX() + cos(ang)*p[i].getY();
-        p[i].setX(x);
-        p[i].setY(y);
-    }
+    rot(ang);
     mover(px,py);
 }
 void Poligono::print(){
