@@ -11,6 +11,7 @@ Ponto::Ponto(float _x, float _y){
     x = _x;
     y = _y;
 }
+Ponto::~Ponto(){}
 float Ponto::getX(){
     return x;
 }

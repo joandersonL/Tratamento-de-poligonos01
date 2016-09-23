@@ -10,6 +10,8 @@ private:
 public:
     Ponto();
     Ponto(float x,float y);
+    ~Ponto();
+
 
 
     float getX();

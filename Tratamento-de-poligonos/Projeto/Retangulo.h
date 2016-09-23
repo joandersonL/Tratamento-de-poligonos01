@@ -5,6 +5,8 @@
 class Retangulo : public Poligono {
     public:
     Retangulo(int x,int y, int largura,int altura);
+    ~Retangulo();
+
 
 
  };

@@ -9,6 +9,8 @@ Poligono::Poligono()
 {
     nVertices = 0;
 
+}Poligono::~Poligono()
+{
 }
 void Poligono::addVertice(float x, float y)
 {
@@ -44,6 +46,26 @@ void Poligono::mover(float x, float y){
         p[i]=p[i].translada(x,y);
     }
 }
+Ponto Poligono::centroide(){
+    float somaX=0;
+    float somaY=0;
+    Ponto pcentro;
+    int i;
+    for(i= 0; i < nVertices-1;i++){
+        somaX+=  (p[i].getX()*p[i+1].getY() - p[i].getY()*p[i+1].getX())*(p[i].getX() + p[i+1].getX());
+    }
+    somaX +=(p[i].getX()*p[0].getY() - p[i].getY()*p[0].getX())*(p[i].getX() + p[0].getX());
+    pcentro.setX( somaX/(6*area()));
+
+    for(i= 0; i < nVertices-1;i++){
+        somaY+=  (p[i].getX()*p[i+1].getY() - p[i].getY()*p[i+1].getX())*(p[i].getY() + p[i+1].getY());
+    }
+    somaY +=(p[i].getX()*p[0].getY() - p[i].getY()*p[0].getX())*(p[i].getY() + p[0].getY());
+    pcentro.setY( somaY/(6*area()));
+
+    return pcentro;
+
+}
 
 void Poligono::rot(double ang){
     for(int i=0;i<nVertices;i++){
@@ -59,6 +81,12 @@ void Poligono::rot(double ang,int px,int py){
     rot(ang);
     mover(px,py);
 }
+void Poligono::rot(double ang,Ponto p){
+    mover(-p.getX(),-p.getY());
+    rot(ang);
+    mover(-p.getX(),-p.getY());
+}
+
 void Poligono::print(){
     for(int i=0;i<nVertices;i++){
         p[i].imprime();

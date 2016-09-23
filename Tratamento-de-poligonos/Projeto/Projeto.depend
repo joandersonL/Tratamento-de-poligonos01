@@ -52,3 +52,30 @@
 	<cmath>
 	<iostream>
 
+1474634718 source:e:\users\user14\desktop\tratamento-de-poligonos01-master\tratamento-de-poligonos\projeto\ponto.cpp
+	"Ponto.h"
+	<iostream>
+	<cmath>
+
+1474634707 e:\users\user14\desktop\tratamento-de-poligonos01-master\tratamento-de-poligonos\projeto\ponto.h
+
+1474573426 source:e:\users\user14\desktop\tratamento-de-poligonos01-master\tratamento-de-poligonos\projeto\retangulo.cpp
+	"Retangulo.h"
+
+1474634707 e:\users\user14\desktop\tratamento-de-poligonos01-master\tratamento-de-poligonos\projeto\retangulo.h
+	"Poligono.h"
+
+1474634707 e:\users\user14\desktop\tratamento-de-poligonos01-master\tratamento-de-poligonos\projeto\poligono.h
+	"Ponto.h"
+
+1474634368 source:e:\users\user14\desktop\tratamento-de-poligonos01-master\tratamento-de-poligonos\projeto\main.cpp
+	<iostream>
+	<cmath>
+	"Retangulo.h"
+
+1474634707 source:e:\users\user14\desktop\tratamento-de-poligonos01-master\tratamento-de-poligonos\projeto\poligono.cpp
+	"Poligono.h"
+	"Ponto.h"
+	<cmath>
+	<iostream>
+
