@@ -8,14 +8,14 @@ private:
     float y;
 
 public:
-    Ponto();
-    Ponto(float x,float y);
+    Ponto(float _x=0,float _y =0);
     ~Ponto();
 
 
 
     float getX();
-    void setX(float x);
+    void setX(float _x);
+    void setXY(float _x,float _y);
     float getY();
     void setY(float y);
     Ponto addPonto(Ponto p);

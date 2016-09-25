@@ -5,43 +5,25 @@ using namespace std;
 
 int main()
 {
-    /*
-    Poligono p;
-    Ponto centro;
+    Retangulo ret(0,0,3,4);
 
-    p.addVertice(1,3);
-    p.addVertice(7,2);
-    p.addVertice(10,0);
-    p.addVertice(11,5);
-    p.addVertice(8,7);
-    p.addVertice(3,6);
+    cout<<"Retangulo: ";
+    ret.print();
+    cout<<endl;
+    cout<<"Area do retangulo: "<<ret.area()<<endl<<endl<<endl;
 
-    cout<<p.area()<<endl;
-    centro = p.centroide();
-    centro.imprime();*/
-
-    Retangulo r(0,0,3,4);
-    cout<<"Coordenadas do retangulo inicial: \n";
-    r.print();
-    cout<<"\n\n\n";
-
-    cout<<"Area do retangulo: "<<r.area();
-    r.mover(-3,4);
+    ret.mover(-3,4);
+    cout<<"Retangulo: ";
+    ret.print();
+    cout<<endl;
+    cout<<"Area do retangulo: "<<ret.area()<<endl<<endl<<endl;
 
 
-    cout<<"\n\n\n";
-    cout<<"Coordenadas do retangulo final: \n";
-    r.print();
-    cout<<"\nArea do retangulo: "<<r.area();
+    ret.rot(180,ret.centroide());
+    cout<<"Retangulo: ";
+    ret.print();
+    cout<<endl;
+    cout<<"Area do retangulo: "<<ret.area()<<endl<<endl<<endl;
 
 
-    cout<<"\n\n\n";
-    r.rot(30,r.centroide());
-    r.print();
-    cout<<"\n\n\n";
-    cout<<"\nArea do retangulo: "<<r.area()<<endl;
-
-
-
-    return 0;
 }
