@@ -15,11 +15,11 @@ public:
     int getVertice();
     float area();
     void mover(float x, float y);
-    void rot(double ang);
-    void rot(double ang,int px,int py);
+    void rot(float ang);
+    void rot(float ang,int px,int py);
     void print();
     Ponto centroide();
-    void rot(double ang, Ponto p);
+    void rot(float ang, Ponto p);
 
 
 

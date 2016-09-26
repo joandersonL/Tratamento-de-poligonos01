@@ -19,7 +19,7 @@ int main()
     cout<<"Area do retangulo: "<<ret.area()<<endl<<endl<<endl;
 
 
-    ret.rot(180,ret.centroide());
+    ret.rot(30,ret.centroide());
     cout<<"Retangulo: ";
     ret.print();
     cout<<endl;

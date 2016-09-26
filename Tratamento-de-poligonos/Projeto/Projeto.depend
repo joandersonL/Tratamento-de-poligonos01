@@ -79,30 +79,30 @@
 	<cmath>
 	<iostream>
 
-1474752927 source:c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\main.cpp
+1474853453 source:c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\main.cpp
 	<iostream>
 	<cmath>
 	"Retangulo.h"
 
-1474751697 c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\retangulo.h
+1474753884 c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\retangulo.h
 	"Poligono.h"
 
-1474751768 c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\poligono.h
+1474853697 c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\poligono.h
 	"Ponto.h"
 
-1474746191 c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\ponto.h
+1474753884 c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\ponto.h
 
-1474752026 source:c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\poligono.cpp
+1474853381 source:c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\poligono.cpp
 	"Poligono.h"
 	"Ponto.h"
 	<cmath>
 	<iostream>
 
-1474751941 source:c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\ponto.cpp
+1474753884 source:c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\ponto.cpp
 	"Ponto.h"
 	<iostream>
 	<cmath>
 
-1474752344 source:c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\retangulo.cpp
+1474753884 source:c:\users\joanderson\documents\github\tratamento-de-poligonos\tratamento-de-poligonos\projeto\retangulo.cpp
 	"Retangulo.h"
 

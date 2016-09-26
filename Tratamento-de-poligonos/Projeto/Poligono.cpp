@@ -85,9 +85,9 @@ Ponto Poligono::centroide(){
 
 }
 //Funcao que faz a rotação em realção a origem
-void Poligono::rot(double ang){
-    for(int i=0;i<nVertices;i++){
-        double a = (M_PI*ang)/180.0;
+void Poligono::rot(float ang){
+    float a = (M_PI*ang)/180.0;
+        for(int i=0;i<nVertices;i++){
         float x = cos(a)*p[i].getX() - sin(a)*p[i].getY();
         float y = sin(a)*p[i].getX() + cos(a)*p[i].getY();
         p[i].setXY(x,y);
@@ -96,7 +96,7 @@ void Poligono::rot(double ang){
 
 //Funcao que faz a rotacao em realão as coordenadas de um ponto
 //formecido, no caso px e py
-void Poligono::rot(double ang,int px,int py){
+void Poligono::rot(float ang,int px,int py){
     mover(-px,-py);
     rot(ang);
     mover(px,py);
@@ -104,7 +104,7 @@ void Poligono::rot(double ang,int px,int py){
 
 //Funcao que faz a rotacao em realão a um ponto
 //formecido
-void Poligono::rot(double ang,Ponto p){
+void Poligono::rot(float ang,Ponto p){
     mover(-p.getX(),-p.getY());
     rot(ang);
     mover(p.getX(),p.getY());
