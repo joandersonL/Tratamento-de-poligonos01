@@ -2,7 +2,11 @@
 #define POLIGONO_H_INCLUDED
 #include "Ponto.h"
 
+
+//Classe Poligono que cria poligono
+//de ate 100 vertices
 class Poligono{
+
 private:
     int nVertices;
 protected:

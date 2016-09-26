@@ -25,5 +25,5 @@ int main()
     cout<<endl;
     cout<<"Area do retangulo: "<<ret.area()<<endl<<endl<<endl;
 
-
+    cout<<"Quantidade de vertices: "<<ret.getVertice()<<endl;
 }

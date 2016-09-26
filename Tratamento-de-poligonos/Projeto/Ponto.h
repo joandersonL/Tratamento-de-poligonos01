@@ -1,6 +1,8 @@
 #ifndef PONTO_H_INCLUDED
 #define PONTO_H_INCLUDED
 
+
+//Classe ponto
 class Ponto
 {
 private:
